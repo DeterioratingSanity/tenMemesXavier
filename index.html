@@ -7,7 +7,11 @@
   background-color: red; /*Or 30*/
   height:100vh;
 }
-
+*{
+  margin: 0;
+}body::-webkit-scrollbar {
+      display: none;
+}
 #body{
   height:100vh;
   position:relative;
@@ -53,6 +57,34 @@ b {
 .four {
   background-color: purple;
   z-index:10000;
+}
+.five{
+	background-color:red;
+z-index:10000;	     
+}
+.six{
+	background-color:green;
+z-index:10000;
+}
+.seven{
+	background-color:pink;
+z-index:10000;
+}
+.eight{
+	background-color:navy;
+z-index:10000;
+}
+.nine{
+	background-color:teal;
+z-index:10000;
+}
+.ten{
+	background-color:silver;
+z-index:10000;
+}
+.eleven{
+	background-color:orange;
+z-index:10000;
 }
 
 .holder{
@@ -175,49 +207,6 @@ border-radius: var(--radius-5);
 .marquee:hover .marquee__inner {
     animation-play-state: paused;
 }
-
-.outer{
-}
-@-webkit-keyframes navloop {
-         0% {
-           transform: translateX(0%);
-         }
-
-         100% {
-           transform: translateX(-100%);
-         }
-       }
-
-       @-moz-keyframes navloop {
-         0% {
-           transform: translateX(0%);
-         }
-
-         100% {
-           transform: translateX(-100%);
-         }
-       }
-
-       @-o-keyframes navloop {
-         0% {
-           transform: translateX(0%);
-         }
-
-         100% {
-           transform: translateX(-100%);
-         }
-       }
-
-       @keyframes navloop {
-         0% {
-           transform: translateX(0%);
-         }
-
-         100% {
-           transform: translateX(-100%);
-         }
-       }
-
 #underhead{
   font-size: 8vmin;
   display: inline-block;
@@ -692,6 +681,33 @@ margin:10px;
               
             </section>
             <section class="panel four">
+              
+            </section>
+		  
+            <section class="panel five">
+              
+            </section>
+		  
+            <section class="panel six">
+              
+            </section>
+		  
+            <section class="panel seven">
+              
+            </section>
+		  
+            <section class="panel eight">
+              
+            </section>
+		  
+            <section class="panel nine">
+              
+            </section>
+		  
+            <section class="panel ten">
+              
+            </section>
+            <section class="panel eleven">
               
             </section>
           </div>
