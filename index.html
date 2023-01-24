@@ -4,49 +4,8 @@
       <title>Ten Memes</title>
       <style>
       .head{
-  background-image: var(--gradient-15); /*Or 30*/
+  background-color: red; /*Or 30*/
   height:100vh;
-}
-.logo{
-  position:relative;
-  background-color:white;
-  text-align:center;
-  animation: shift 5s var(--ease-in-out-3) alternate infinite;
-  border-radius: var(--radius-blob-1);
-  height:45vmin;
-  aspect-ratio:1/1;
-  margin:auto;
-  top:25vh;
-  line-height:8vmin;
-  /*
-  */
-}
-.heroText{
-   margin-top:0;
-   position:absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   font-size: 17vmin;
-   background: var(--gradient-23);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-   letter-spacing:4px;
-   font-variant:small-caps;
-   white-space:nowrap;
-   font-weight: var(--font-weight-4);
-   font-family: var(--font-serif);
-}
-
-.heroMid{
-  vertical-align:middle;
-}
-@keyframes shift {
-  0% {border-radius: var(--radius-blob-2)};
-  25% {border-radius: var(--radius-blob-5)};
-  50% {border-radius: var(--radius-blob-3)};
-  75% {border-radius: var(--radius-blob-4)};
-  100% {border-radius: var(--radius-blob-1)};
 }
 
 #body{
@@ -81,32 +40,21 @@ b {
   position: relative;
 }
 .one {
-  background-image: var(--gradient-2);
+  background-color: blue;
 }
 .two {
-  background-image: var(--gradient-5);
+  background-color: green;
   z-index:10000;
 }
 .three {
-  background-image: var(--gradient-4);
+  background-color: yellow;
   z-index:10000;
 }
 .four {
-  background-image: var(--gradient-1);
+  background-color: purple;
   z-index:10000;
 }
 
-.sect{
-  position:relative;
-  height:50vh;
-  width:50vw;
-  margin:auto;
-  top:25vh;
-  background-color: white;
-  border-radius: var(--radius-4);
-  box-shadow: var(--shadow-4);  /* inner-shadow? */
-  font-family:var(--font-sans);
-}
 .holder{
   padding:1em 1.5em;
 }
@@ -736,54 +684,15 @@ margin:10px;
       <div id="pinMaster">
           <div id="pinContainer">
             <section class="panel one">
-              <div class="sect">
-                <div class="holder" id="cursorR">
-                  <div id="calendar" style="margin:auto; z-index:1">
-                  </div>
-                </div>
-
-              </div>
             </section>
             <section class="panel two">
-              <div class="gallery js-flickity"
-                  data-flickity-options='{ "wrapAround": true }'>
-                <div class="gallery-cell" id="displayFirst"></div>
-                <div class="gallery-cell" id="displaySecond"></div>
-                <div class="gallery-cell" id="displayThird"></div>
-              </div>
+              
             </section>
             <section class="panel three">
-              <div class="sect">
-                  <div class="reviewBlock" style="position:absolute; top:-2.6vh; left:-2.6vw;background-image:url(./owner.jpeg); background-position:center; background-repeat:no-repeat; background-size:cover; height:40vh;width:15vw">
-                  </div>
-                  <span style="position:relative; left:15vw; top:5vh; font-size:4vmin">
-                  ← This is <span style="font-family:'Lucida Handwriting', cursive; color:red; font-weight:bold">John </span>,<br>
-                  our founder.<br>
-                  John started<br>
-                  Doggone Good<br>
-                  because he<br>
-                  <span style="font-weight:bold">loves</span> dogs!
-                  </span>
-                </div>
+              
             </section>
             <section class="panel four">
-              <div class="sect">
-              <div class="holder">
-                  <span class="reviewBlock" style="top:-2.6vh; left:-2.6vw">
-                    <span>Couldn't be more pleased with Doggone Good!</span>
-                    <div class="userIcon" id="iconHomeFirst"></div>
-                  </span>
-                  <span class="reviewBlock" style="top:20vh; left:-2.6vw">
-                    <span>Great solution for a busy family.</span>
-                    <div class="userIcon" id="iconHomeSecond"></div>
-                  </span>
-                  <span class="reviewBlock" style="top:-2.6vh; left:19.5vw">
-                    <span>Clean facilities, caring workers - Perfect for any dog.</span>
-                    <div class="userIcon" id="iconHomeThird"></div>
-                  </span>
-                  <img id="subImg" src='dogSilhouette.svg' style="">
-                </div>
-              </div>
+              
             </section>
           </div>
         </div>
