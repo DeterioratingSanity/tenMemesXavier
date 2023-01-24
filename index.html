@@ -671,7 +671,7 @@ margin:10px;
             <section class="panel four">
               
             </section>
-		  
+		
             <section class="panel five">
               
             </section>
@@ -708,7 +708,15 @@ var tl = new TimelineMax();
 tl.from("section.panel.two", 1, {xPercent: 150});
 tl.from("section.panel.three", 1, {yPercent: -150});
 tl.from("section.panel.four", 1, {xPercent: -150});
-tl.from("section.panel.five", 1, {xPercept: 50}); /**empty but fixes scroll discrepancy**/
+tl.from("section.panel.five",1  ,  {yPercent: 150});
+tl.from("section.panel.six",1  ,   {xPercent: 150});		
+tl.from("section.panel.seven",1 ,  {yPercent: -150});		
+tl.from("section.panel.eight",1  , {xPercent: -150});		
+tl.from("section.panel.nine",1  ,  {yPercent: 150});		
+tl.from("section.panel.ten",1   ,  {xPercent: 150});		
+tl.from("section.panel.eleven",1,  {yPercent: -150});		
+		
+tl.from("section.panel.twelve", 1, {xPercept: 50}); /**empty but fixes scroll discrepancy**/
 
 
 new ScrollMagic.Scene({
